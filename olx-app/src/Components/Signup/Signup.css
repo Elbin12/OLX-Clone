@@ -1,0 +1,64 @@
+.signup .left{
+    background-image: url('https://www.dignited.com/wp-content/uploads/2018/01/olx_logo.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 50%;
+    height: 60%;
+}
+
+.signup .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+}
+
+.signup-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 60px 40px 40px 40px ;
+    text-align: center;
+    background-color: #2a3038;
+    border-radius: 5px;
+}
+
+.title{
+    color: #fff;
+}
+
+.signupform{
+    display: flex;
+    gap: 10px;
+    flex-direction: column; 
+}
+
+.signupform input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(136, 136, 136);
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.signupform input:focus{
+    border: 3px solid #85d0a2;
+}
+
+.signupform button{
+    width: 305px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: #60816e;
+    color: #fff;
+    cursor: pointer;
+}

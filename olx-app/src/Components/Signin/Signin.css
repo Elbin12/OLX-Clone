@@ -1,0 +1,52 @@
+.signin{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    z-index: 2;
+    height:700px;
+    align-items: center;
+}
+
+.signin-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px 40px 20px ;
+    text-align: center;
+    background-color: #2a3038;
+    border-radius: 5px;
+}
+
+.title{
+    color: #fff;
+}
+
+.loginform{
+    display: flex;
+    gap: 20px;
+    flex-direction: column; 
+}
+
+.loginform input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(136, 136, 136);
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.loginform input:focus{
+    border: 3px solid #85d0a2;
+}
+
+.loginform button{
+    width: 305px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: #60816e;
+    color: #fff;
+    cursor: pointer;
+}

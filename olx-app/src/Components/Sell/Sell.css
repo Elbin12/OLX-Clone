@@ -1,0 +1,39 @@
+.sellpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 730px;
+}
+
+.sellform{
+    width: 23%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(227, 226, 226);
+}
+
+.sellform input,.sellform button{
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    outline: none;
+}
+
+.sellform button{
+    border-radius: 3px;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(46, 46, 101, 0.903);
+    cursor: pointer;
+}
+
+.sellform input:focus{
+    border-bottom: 2px solid #85d0a2;
+}
+
+.sellform input[name='img']{
+    border: 0;
+}
+

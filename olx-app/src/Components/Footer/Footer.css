@@ -1,0 +1,109 @@
+.footer{
+    bottom: 0;
+    width: 100%;
+}
+
+.first{
+    background-color: rgb(235 238 239);
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+ul{
+    list-style-type:none;
+    padding: 0;
+}
+
+li{
+    font-size: small;
+    color: rgb(135, 135, 135);
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: black;
+}
+
+.first section{
+
+}
+
+.second{
+    background-color:rgb(0 47 52);
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.links{
+    display: flex;
+}
+
+.CTTG, .olx, .carwale, .bikewale, .Ctrade, .MO{
+    padding-right: 100px;
+}
+
+.CTTG img{
+    width: 10rem;
+    top: 10px;
+    border-right: 1px solid white;   
+    padding-right: 30px;
+}
+
+.olx img{
+    width: 3rem;
+}
+
+.carwale img, .bikewale img, .MO img,.Ctrade img{
+    width: 7rem;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    .first{
+        gap:40px
+    }
+
+    li{
+        font-size: xx-small;
+    }
+
+    .first section h5{
+        font-size: xx-small;
+    }
+
+    .second{
+        gap: 10px;
+    }
+
+    .CTTG img{
+        width: 7rem;
+    }
+
+    .olx img{
+        width: 2rem;
+    }
+
+    .carwale img, .bikewale img, .MO img,.Ctrade img{
+        width: 4rem;
+    }
+
+    .CTTG, .olx, .carwale, .bikewale, .Ctrade, .MO{
+        padding-right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1350px) {
+    .CTTG, .olx, .carwale, .bikewale, .Ctrade, .MO{
+        padding-right: 30px;
+    }
+}

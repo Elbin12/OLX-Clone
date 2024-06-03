@@ -1,0 +1,61 @@
+.posters-main{
+    display: flex;
+    justify-content: center;
+}
+
+.posters-section{
+    height: auto;
+    max-width: 90%;
+    width: 90%;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.posters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+    flex-wrap: wrap;    
+}
+
+.title{
+    font-size: x-large;
+    padding-bottom: 20px;
+}
+
+.poster{
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 5px;
+    background-color:rgb(248, 248, 248);
+    width: 300px;
+    cursor: pointer;
+}
+
+.image{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image img{
+    padding-top: 10px;
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content{
+    background-color: rgb(248, 247, 247); 
+    margin: 20px;
+}
+
+.content h6{
+    font-size: larger;
+    padding: 0;
+    margin: 0;
+}
+.content p{
+    margin-bottom: 7px;
+}

@@ -1,0 +1,43 @@
+.head{
+    position: relative;
+    top: 75px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(255 255 255);
+    height: 40px;
+    border: 1px solid #fff;
+    box-shadow: 5px 1px 4px 0 rgba(9, 9, 9, 0.564);
+}
+
+
+
+.categories a{
+    padding-right: 2rem;
+    text-decoration: none;
+    color: rgb(17, 17, 18);
+    font-size: 1rem;
+}
+
+.categories a:hover{
+    color: rgb(78, 151, 129);
+}
+
+.all-categories{
+    color: rgb(45, 45, 65);
+    font-weight: 500;
+    padding-right: 2rem;
+}
+
+@media screen  and (max-width: 600px) {
+   
+    .categories a{
+        font-size: x-small;
+    }
+
+    .all-categories{
+        font-size: x-small;
+    }
+    
+}
